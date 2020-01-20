@@ -14,6 +14,40 @@
  *= require_self
  */
 
-.ul {
-  color: blue;
+
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
+
+.container {
+  display: flex;
+  justify-content: center;*/
+  text-align: left;
+}
+.container ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.task-action-container {
+  display: flex;
+  justify-content: center;
+}
+
+.task-action-container ul {
+  list-style: none;
+}
+
+.checkbox {
+  display: flex;
+  margin: 0 auto;
+}
+
+.form-button {
+  display: flex;
+  margin: 0 auto;
+  padding: 15px;
+}
+
